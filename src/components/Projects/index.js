@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Screenshots from './screenshot';
 
 class Projects extends Component {
   render() {
@@ -8,6 +9,9 @@ class Projects extends Component {
           <h3>Powered by Coffee</h3>
           <h2 className="animated bounce">Projects</h2>
         </header>
+        <div>
+          <Screenshots />
+        </div>
       </div>
     );
   }
