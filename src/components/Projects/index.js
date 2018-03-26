@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Screenshots from './screenshot';
+import Screenshots from './screenshots';
 
 class Projects extends Component {
   render() {
