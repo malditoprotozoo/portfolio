@@ -6,7 +6,7 @@ class Contact extends Component {
       <div id="Contact" className="section">
         <header>
           <h3>I didn't have a funny quote for this section :v</h3>
-          <h2>Contact</h2>
+          <h2 className="animated bounce">Contact</h2>
         </header>
       </div>
     );

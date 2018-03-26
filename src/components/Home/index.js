@@ -8,7 +8,7 @@ class Home extends Component {
       <div id="Home" className="section">
         <header>
           <h3>Welcome to my digital lair, I'm Tori</h3>
-          <h2>Front-End Developer</h2>
+          <h2 className="animated bounce">Front-End Developer</h2>
         </header>
         <img src={Avatar} alt="Avatar" className="d-sm-none d-lg-block d-md-block d-xl-block d-none"/>
       </div>

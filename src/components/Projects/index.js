@@ -6,7 +6,7 @@ class Projects extends Component {
       <div id="Projects" className="section">
         <header>
           <h3>Powered by Coffee</h3>
-          <h2>Projects</h2>
+          <h2 className="animated bounce">Projects</h2>
         </header>
       </div>
     );

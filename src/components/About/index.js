@@ -6,7 +6,7 @@ class About extends Component {
       <div id="About" className="section">
         <header>
           <h3>This is the programmer you're looking for!</h3>
-          <h2>ABOUT ME</h2>
+          <h2 className="animated bounce">ABOUT ME</h2>
         </header>
       </div>
     );

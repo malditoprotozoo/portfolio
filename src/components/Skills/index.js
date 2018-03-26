@@ -6,7 +6,7 @@ class Skills extends Component {
       <div id="Skills" className="section">
         <header>
           <h3>Ah, I See You're a Man of Culture As Well...</h3>
-          <h2>Skills</h2>
+          <h2 className="animated bounce">Skills</h2>
         </header>
       </div>
     );
