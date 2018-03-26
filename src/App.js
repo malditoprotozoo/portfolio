@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Nav from './components/Navbar';
 import Home from './components/Home/';
 import About from './components/About/';
@@ -20,7 +20,7 @@ class App extends Component {
           <Route exact path='/projects' component={Projects}/>
           <Route exact path='/skills' component={Skills}/>
           <Route exact path='/contact' component={Contact}/>
-          <Route component={NotFound}/>
+          <Redirect from="*" to="/" />
         <Foot/>
       </div>
     );
