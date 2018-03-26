@@ -15,11 +15,11 @@ class App extends Component {
       <div className="App">
         <Nav/>
         <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/about' component={About}/>
-          <Route exact path='/projects' component={Projects}/>
-          <Route exact path='/skills' component={Skills}/>
-          <Route exact path='/contact' component={Contact}/>
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}/>
+          <Route exact path={process.env.PUBLIC_URL + '/about'} component={About}/>
+          <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Projects}/>
+          <Route exact path={process.env.PUBLIC_URL + '/skills'} component={Skills}/>
+          <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact}/>
         </Switch>
         <Foot/>
       </div>
