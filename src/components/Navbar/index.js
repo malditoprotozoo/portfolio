@@ -22,26 +22,26 @@ class Nav extends Component {
   render() {
     return (
       <Navbar dark color="black" expand="md">
-        <Link to="/">
+        <Link to={process.env.PUBLIC_URL + '/'}>
           <img src={Logo} alt="Logo" height="30" />
         </Link>
         { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
         <Collapse isOpen = { this.state.collapse } navbar>
           <NavbarNav right className="ml-auto">
             <NavItem>
-              <NavLink className="nav-link" to="/">Home</NavLink>
+              <NavLink className="nav-link" to={process.env.PUBLIC_URL + '/'}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="about">About</NavLink>
+              <NavLink className="nav-link" to={process.env.PUBLIC_URL + '/about'}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="projects">Projects</NavLink>
+              <NavLink className="nav-link" to={process.env.PUBLIC_URL + '/projects'}>Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="skills">Skills</NavLink>
+              <NavLink className="nav-link" to={process.env.PUBLIC_URL + '/skills'}>Skills</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="contact">Contact</NavLink>
+              <NavLink className="nav-link" to={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink>
             </NavItem>
           </NavbarNav>
         </Collapse>
