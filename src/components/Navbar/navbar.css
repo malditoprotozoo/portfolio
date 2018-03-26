@@ -1,0 +1,4 @@
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: #EBE9E9!important;
+  font-family: 'IBM Plex Mono', monospace;
+}

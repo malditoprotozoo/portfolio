@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:100,200,300,400,500');
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00CC99;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  background: #000105;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('assets/img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section {
+  background: rgba(0, 0, 4, 0.8);
+  color: #EBE9E9;
+  padding-top: 1em;
+  min-height: 85vh;
+}
+
+.section h2 {
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+}
+
+.section header {
+  text-align: center;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.section h3 {
+  font-weight: 200;
+  letter-spacing: 3px;
+}
