@@ -7,6 +7,7 @@
     "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.1.0",
+    "hover.css": "^2.3.0",
     "jquery": "latest",
     "mdbreact": "git+https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design.git#react-upgrade",
     "popper.js": "^1.14.1",
