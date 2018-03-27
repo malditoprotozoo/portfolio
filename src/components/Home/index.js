@@ -11,7 +11,7 @@ class Home extends Component {
           <h2 className="animated bounce">Front-End Developer</h2>
         </header>
         <div id="main-avatar">
-          <a href="https://github.com/malditoprotozoo">
+          <a target="_blank" href="https://github.com/malditoprotozoo">
             <img src={Avatar} alt="Avatar" className="dealWithIt"/>
           </a>
         </div>
