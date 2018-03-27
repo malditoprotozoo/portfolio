@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Contact extends Component {
   render() {
     return (
-      <div id="Contact" className="section">
+      <div id="Contact" className="page">
         <header>
           <h3>I didn't have a funny quote for this section :v</h3>
           <h2 className="animated bounce">Contact</h2>

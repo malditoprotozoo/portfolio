@@ -19,25 +19,3 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.section {
-  background: rgba(0, 0, 4, 0.8);
-  color: #EBE9E9;
-  padding-top: 1em;
-  min-height: 85vh;
-}
-
-.section h2 {
-  font-family: 'Righteous', cursive;
-  text-transform: uppercase;
-}
-
-.section header {
-  text-align: center;
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
-}
-
-.section h3 {
-  font-weight: 200;
-  letter-spacing: 3px;
-}

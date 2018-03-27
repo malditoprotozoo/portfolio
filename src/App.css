@@ -1,0 +1,61 @@
+.page {
+  background: rgba(0, 0, 4, 0.8);
+  color: #EBE9E9;
+  padding-top: 1em;
+  min-height: 85vh;
+  height: 100%;
+}
+
+.page h2 {
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+}
+
+.page header {
+  text-align: center;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.page h3 {
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.page section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.mock-window-container {
+  position: relative;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.mock-window-container p {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  padding: 1em;
+}
+
+.mock-window-container .mini-title {
+  display: block;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.mock-window-container::after {
+  content: url('assets/img/window-btns.png');
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  z-index: 9999;
+}
+
+span.separator {
+  display: block;
+  border: 1px dotted rgba(235, 233, 233, 0.3);
+}

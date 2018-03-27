@@ -4,7 +4,7 @@ import Screenshots from './screenshots';
 class Projects extends Component {
   render() {
     return (
-      <div id="Projects" className="section">
+      <div id="Projects" className="page">
         <header>
           <h3>Powered by Coffee</h3>
           <h2 className="animated bounce">Projects</h2>

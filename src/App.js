@@ -8,7 +8,6 @@ import Skills from './components/Skills/';
 import Contact from './components/Contact/';
 import Foot from './components/Footer';
 import './App.css';
-
 class App extends Component {
   render() {
     return (
