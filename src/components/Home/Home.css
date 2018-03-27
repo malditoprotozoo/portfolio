@@ -17,6 +17,7 @@
 
 #main-avatar img {
   width: 100%;
+  transition: width .2s;
 }
 
 @media (max-width: 650px) {
