@@ -1,0 +1,29 @@
+#Skills ul {
+  list-style-type: none;
+  background-image: url('../../assets/img/window.png');
+  background-repeat: no-repeat;
+  padding: 3em;
+  padding-top: 4em;
+  border-radius: 20px;
+}
+
+.window {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.false-ul {
+  font-weight: 500;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #00CC99;
+}
+
+.false-li {
+  margin-left: 1em;
+  color: #F45B69;
+}
+
+.text-inside {
+  color: #EBE9E9;
+}

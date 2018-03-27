@@ -16,9 +16,21 @@ class SkillList extends Component {
   render() {
     return (
       this.state.data !== null ?
-      <p>no null</p>
+      <div className="window">
+        <ul className='false-ul'>
+          {'<ul>'}
+            {this.state.data.map(obj => {
+              return (
+                <li className="false-li" key={obj.skill}>{'<li>'} <span className="text-inside">{obj.skill}</span> {'</li>'}</li>
+              );
+            })}
+          {'</ul>'}
+        </ul>
+      </div>
       :
       <p>null</p>
     );
   }
 }
+
+export default SkillList;
