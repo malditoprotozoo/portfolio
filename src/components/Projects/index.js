@@ -9,9 +9,9 @@ class Projects extends Component {
           <h3>Powered by Coffee</h3>
           <h2 className="animated bounce">Projects</h2>
         </header>
-        <div>
+        <section>
           <Screenshots />
-        </div>
+        </section>
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact';
 import dataProject from './../../constants/dataProject';
+import MockWindow from './../../assets/img/window.png';
 import './screenshots.css';
 
 class Screenshots extends Component {
@@ -17,25 +17,24 @@ class Screenshots extends Component {
   }
   render() {
     return (
-      <div id="Screenshots" className="row">
+      <div id="Screenshots">
         {
           this.state.data !== null ?
           this.state.data.map(obj => {
             return (
-              <div className="col-lg" key={obj.title}>
-                <Card>
-                  <CardImage className="img-fluid" src={obj.preview} alt={obj.title} />
-                  <CardBody>
-                    <CardTitle>
-                      {obj.title}
-                    </CardTitle>
-                    <CardText>
-                      {obj.description}
-                    </CardText>
-                    <Button target="_blank" href={obj.repository}>Repo</Button>
-                    <Button target="_blank" href={obj.demo}>Demo</Button>
-                  </CardBody>
-                </Card>
+              <div className="mock-window-container" key={obj.title}>
+                <img src={MockWindow} alt="Window" className="mock-window"/>
+                <p>
+                  <span className="mini-title">{'<'}{obj.title}{'>'}</span>
+                  <span className="separator" />
+                  <span className="preview-container">
+                    <img src={obj.preview} alt={obj.title + ' Screenshot'} className="preview"/>
+                  </span>
+                  <span className="project-description">{obj.description}</span>
+                  <span className="separator" />
+                  <a target="_blank" href={obj.demo} rel="noopener noreferrer" className="btn">Demo</a>
+                  <a target="_blank" href={obj.repository} rel="noopener noreferrer" className="btn">Code</a>
+                </p>
               </div>
             );
           })
