@@ -19,7 +19,7 @@ class About extends Component {
               is a close second.
               <span className="separator" />
               <span className="mini-title">{'<'}coder{'>'}</span>
-              I've been in love with techology since my first Atari, but only recently I decided to make it my career.
+              I've been in love with techology since I got my first Atari, but only recently I decided to pursue it as a career.
               The last 6 months I've been part of Laboratoria's bootcamp for women and I swear the all-nighters have been worth it.
               <span className="separator" />
               <span className="mini-title">{'<'}freeTime{'>'}</span>
