@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import dataProject from './../../constants/dataProject';
+import { Badge } from 'mdbreact';
 import './screenshots.css';
 
 class Screenshots extends Component {
@@ -30,6 +31,13 @@ class Screenshots extends Component {
                       <img src={obj.preview} alt={obj.title + ' Screenshot'} className="preview"/>
                     </span>
                     <span className="project-description">{obj.description}</span>
+                    <span className="badges">
+                      {obj.tags.map(tag => {
+                        return (
+                        <Badge key={tag}>{tag}</Badge>
+                      );
+                      })}
+                    </span>
                     <span className="separator" />
                     <a target="_blank" href={obj.demo} rel="noopener noreferrer" className="btn">Demo</a>
                     <a target="_blank" href={obj.repository} rel="noopener noreferrer" className="btn">Code</a>

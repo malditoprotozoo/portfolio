@@ -14,3 +14,12 @@
 .preview {
   width: 100%;
 }
+
+.badges {
+  display: block;
+  text-align: center;
+}
+
+.badges .badge.badge-default {
+  margin-right: 10px;
+}
