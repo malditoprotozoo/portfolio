@@ -25,6 +25,10 @@
   letter-spacing: 3px;
 }
 
+.page h2, h3, .mini-title {
+  cursor: crosshair;
+}
+
 .page section {
   display: flex;
   justify-content: center;
