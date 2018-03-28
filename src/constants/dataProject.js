@@ -19,6 +19,13 @@ const dataProject = [
     repository: 'https://github.com/malditoprotozoo/promptMe',
     preview: 'https://i.imgur.com/FuBXN1V.png',
     demo: 'https://malditoprotozoo.github.io/promptMe/'
+  },
+  {
+    title: 'Twitter Replica',
+    description: 'Designing a very basic replica of Twitter, desktop only.',
+    repository: 'https://github.com/malditoprotozoo/twitter-replica',
+    preview: 'https://i.imgur.com/QzNf7Lw.png',
+    demo: 'https://malditoprotozoo.github.io/twitter-replica/'
   }
 ]
 

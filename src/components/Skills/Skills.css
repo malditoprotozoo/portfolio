@@ -1,16 +1,5 @@
 #Skills ul {
   list-style-type: none;
-  background-image: url('../../assets/img/window.png');
-  background-repeat: no-repeat;
-  padding: 3em;
-  padding-top: 4em;
-  border-radius: 20px;
-}
-
-.window {
-  display: flex;
-  justify-content: center;
-  margin-top: 2em;
 }
 
 .false-ul {
@@ -26,4 +15,5 @@
 
 .text-inside {
   color: #EBE9E9;
+  font-weight: 200;
 }
