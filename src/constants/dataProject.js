@@ -30,6 +30,14 @@ const dataProject = [
     preview: 'https://i.imgur.com/QzNf7Lw.png',
     demo: 'https://malditoprotozoo.github.io/twitter-replica/',
     tags: ['html', 'css', 'css3', 'icomoon']
+  },
+  {
+    title: 'Marvel Movieverse',
+    description: 'Website about the Marvel movies and its comic books made for Laboratoria\'s first hackathon.',
+    repository: 'https://github.com/malditoprotozoo/marvel-movieverse',
+    preview: 'https://i.imgur.com/nUoe6Tp.png',
+    demo: 'https://malditoprotozoo.github.io/marvel-movieverse/',
+    tags: ['html', 'css', 'css3', 'api', 'ombd-api', 'jquery']
   }
 ]
 
