@@ -24,6 +24,18 @@ const dataSkills = [
     projects: ''
   },
   {
+    skill: 'Wordpress',
+    projects: ''
+  },
+  {
+    skill: 'Angular',
+    projects: ''
+  },
+  {
+    skill: 'NPM',
+    projects: ''
+  },
+  {
     skill: 'HTML5',
     projects: ''
   },
