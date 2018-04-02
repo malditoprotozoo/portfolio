@@ -43,6 +43,9 @@ class Nav extends Component {
             <NavItem>
               <NavLink className="nav-link" to='/contact'>Contact</NavLink>
             </NavItem>
+            <NavItem>
+              <a className="nav-link Ripple-parent nav-link" target="_blank" rel="noopener noreferrer" href="https://torialsowrites.online">Blog</a>
+            </NavItem>
           </NavbarNav>
         </Collapse>
       </Navbar>
